@@ -1,0 +1,14 @@
+= omniauth-rails
+
+THIS IS EARLY STAGE. PLEASE DON'T USE THIS IN YOUR PROJECTS YET.
+
+This project contians the basic Rails constructs needed to set up an application to use OmniAuth. 
+
+At this time, OmniAuth::Identity is supported and uses a model named Identity. 
+
+gem 'omniauth-rails'
+rails generate migration omniauth-rails-identity
+rake db:migrate
+rails server 
+open 'http://localhost/auth/identity'
+

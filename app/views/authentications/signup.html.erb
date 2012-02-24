@@ -1,0 +1,18 @@
+<section id="services_new" class="services">
+	<h1>Create New Account</h1>
+
+	<div>
+		<h3>This authentication is new to PEWGRF</h3>
+		
+		<p class="small">
+			Provider: <%= @authhash[:provider] %><br />
+			ID: <%= @authhash[:uid] %><br />
+			Name: <%= @authhash[:name] %><br />
+			Email: <%= @authhash[:email] %>	<br />
+		</p>
+
+		<%= form_tag newaccount_authentications_path, :method => :post do %>
+			<%= submit_tag "Confirm and create new account" %> <%= submit_tag "Cancel" %>
+		<% end %>
+	</div>
+</section>
