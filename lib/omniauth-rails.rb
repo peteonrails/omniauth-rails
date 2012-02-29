@@ -1,5 +1,4 @@
-require "omniauth-rails/version"
-require "active_support/dependencies"
+require "omniauth/rails/version"
 
 module OmniAuth
   module Rails
@@ -10,4 +9,4 @@ module OmniAuth
   end
 end
 
-require "omniauth-rails/engine"
+require "omniauth/rails/engine"
