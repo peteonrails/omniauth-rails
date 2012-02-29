@@ -6,9 +6,9 @@ This project contians the basic Rails constructs needed to set up an application
 
 At this time, OmniAuth::Identity is supported and uses a model named Identity. 
 
-gem 'omniauth-rails'
-rails generate migration omniauth-rails-identity
-rake db:migrate
-rails server 
-open 'http://localhost/auth/identity'
+  gem 'omniauth-rails'
+  rails generate migration omniauth-rails-identity
+  rake db:migrate
+  rails server 
+  open 'http://localhost/auth/identity'
 
